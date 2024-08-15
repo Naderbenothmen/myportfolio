@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website - Easy tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9272990f77.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+      <div class="container">
+     <nav>
+        <img src="image/logo.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">home</a></li>
+            <li><a href="#about">about</a></li> 
+            <li><a href="#service">service</a></li> 
+            <li><a href="#portfolio">portfolio</a></li> 
+            <li><a href="#contact">contact</a></li> 
+            <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+     </nav>  
+     <div class="header-texte">
+        <p>UI/UX Designer</p>
+        <h1>hi, I'm <span>nader</span><br> ben othmen from tunis</h1>
+     </div>
+      </div>  
+    </div>
+   <!------about------>
+    <div id="about">
+        <div class="container">
+          <div class="row">
+             <div class="about-col-1">
+                <img src="image/nader1.png" alt="">
+             </div>
+                <div class="about-col-2">
+                 <h1 class="sub-title">about me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links " onclick="opentab('education')">Education</p>                   
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>designing web/app interface</li>
+                        <li><span>web development</span><br>web app development</li>
+                        <li><span>app development</span><br>building android/ios apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                  <ul>
+                    <li><span>2021 - current</span><br>UI/UX Design training at ET Institute</li>
+                    <li><span>2019 - 2021</span><br>team lead at starapp LLC.</li>
+                  </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2016</span><br>UI/UX Design training at ET Institute</li>
+                        <li><span>2016</span><br>MBA from MIT bangalore</li>
+                    </ul>
+                </div>
+             </div>  
+            </div>
+        </div>
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services_liste">
+                   <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web Design</h2>
+                    <p>lorm ipsum dolor sit amet,consectetur adipiscing elit.sed nulla nibh,tincidunt sit amet sapien quis</p>
+                    <a href="#">Learn more</a>
+                   </div>
+                   <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2><UI>UI/IX Design</h2>
+                    <p>lorm ipsum dolor sit amet,consectetur adipiscing elit.sed nulla nibh,tincidunt sit amet sapien quis</p>
+                    <a href="#">Learn more</a>
+                   </div>
+                   <div>
+                   <i class="fa-brands fa-app-store"></i>
+                   <h2>app Design</h2>
+                    <p>lorm ipsum dolor sit amet,consectetur adipiscing elit.sed nulla nibh,tincidunt sit amet sapien quis</p>
+                    <a href="#">Learn more</a>
+                   </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">my work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work1.png" >
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p>the app connects you yo the talented people around the world.
+                            Download it from play store</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work22.png" >
+                    <div class="layer">
+                        <h3>music app</h3>
+                        <p>the app connects you yo the talented people around the world.
+                            Download it from play store</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="image/work33.png" >
+                    <div class="layer">
+                        <h3>online shopping app</h3>
+                        <p>the app connects you yo the talented people around the world.
+                            Download it from play store</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div> 
+            <a href="#" class="bnt">see more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                 <h1 class="sub-title">Contact Me</h1>
+                 <p><i class="fa-solid fa-paper-plane"></i> naderbo30@gmail.com</p>
+                 <p><i class="fa-solid fa-phone"></i> 92377165</p>  
+                 <div class="social-icons">
+                   <a href=""><i class="fa-brands fa-facebook"></i></a> 
+                   <a href=""><i class="fa-brands fa-twitter-square"></i></a> 
+                   <a href=""><i class="fa-brands fa-instagram"></i></a> 
+                   <a href=""><i class="fa-brands fa-linkedin"></i></a> 
+                 </div> 
+                 <a href="" class="bnt bnt2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="bnt bnt2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©  Kevin. Made With<i class="fa-solid fa-heart"></i> By Easy Tutorials</p>
+        </div>
+    </div>
+   <script>
+     var tablinks = document.getElementsByClassName("tab-links");   
+     var tabcontents = document.getElementsByClassName("tab-contents"); 
+
+     function opentab(tabname){
+        for(tablink of tablinks){
+        tablink.classlist.remove("active-link");
+     }
+     for(tabcontent of tabcontents){
+     tabcontent.classlist.remove("active-tab");
+     }
+     event.currentTarget.classlist.add("active-link");
+    document.getElementById(tabname).classlist.add("active-tab");
+     }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
